@@ -11,6 +11,7 @@
 #import "TableCheck.h"
 #import "MenuItem.h"
 #import "GroupTableCheck.h"
+#import "CateringOrder.h"
 
 int main(int argc, const char * argv[]) {
    

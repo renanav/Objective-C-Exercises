@@ -10,4 +10,8 @@
 
 @implementation CateringOrder
 
+-(void)addMenuChoice:(MenuItem)menuItem{
+    [self.orderFormDict addEntriesFromDictionary:@{menuItem.itemName:@0}];
+}
+
 @end
