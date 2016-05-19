@@ -51,10 +51,13 @@ int main(int argc, const char * argv[]) {
     [group1 addMenuItem:grilledCheese];
     [group1 addTip];
     
-    
+    //create a catering order
     CateringOrder *catering1 = [[CateringOrder alloc]init];
     [catering1 addMenuChoice:grilledCheese];
     [catering1 addMenuChoice:soupDuJour];
+    
+    //present the items quantities in the catering order
+    [catering1 setItemQty:grilledCheese withQty:4];
     
     
     return 0;

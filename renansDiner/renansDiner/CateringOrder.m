@@ -20,10 +20,16 @@
 }
 
 
-
 -(void)addMenuChoice:(MenuItem*)menuItem{
     [self.orderFormDict addEntriesFromDictionary:@{menuItem.itemName:@0}];
 }
+
+//to add quantities of items to the catering order
+-(void)setItemQty:(MenuItem*)menuItem withQty:(int)qty{
+    [self.orderFormDict setValue:@(qty) forKey:menuItem.itemName];
+}
+
+
 
 
 @end

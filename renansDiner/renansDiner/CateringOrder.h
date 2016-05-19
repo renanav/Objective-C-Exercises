@@ -20,6 +20,7 @@
 
 
 -(void)addMenuChoice:(MenuItem*)menuItem;
+-(void)setItemQty:(MenuItem*)menuItem withQty:(int)qty;
 
 
 @end
