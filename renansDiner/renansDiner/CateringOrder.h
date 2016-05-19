@@ -19,7 +19,7 @@
 @property (nonatomic, strong) TableCheck *tableCheck;
 
 
--(void)addMenuChoice:(MenuItem)menuItem;
+-(void)addMenuChoice:(MenuItem*)menuItem;
 
 
 @end
