@@ -11,7 +11,7 @@
 		75282ECE1CEB5A4D002AEA87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75282ECD1CEB5A4D002AEA87 /* main.m */; };
 		75282ED61CEB5AD3002AEA87 /* TableCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 75282ED51CEB5AD3002AEA87 /* TableCheck.m */; };
 		7535F7C01CEBBE9E0092E68B /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7535F7BF1CEBBE9E0092E68B /* MenuItem.m */; };
-		753BFC1C1CEE45B700E92B1F /* CateringObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 753BFC1B1CEE45B700E92B1F /* CateringObject.m */; };
+		753BFC1F1CEE48D500E92B1F /* CateringOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 753BFC1E1CEE48D500E92B1F /* CateringOrder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,8 +35,8 @@
 		75282ED51CEB5AD3002AEA87 /* TableCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCheck.m; sourceTree = "<group>"; };
 		7535F7BE1CEBBE9E0092E68B /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
 		7535F7BF1CEBBE9E0092E68B /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
-		753BFC1A1CEE45B700E92B1F /* CateringObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CateringObject.h; sourceTree = "<group>"; };
-		753BFC1B1CEE45B700E92B1F /* CateringObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CateringObject.m; sourceTree = "<group>"; };
+		753BFC1D1CEE48D500E92B1F /* CateringOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CateringOrder.h; sourceTree = "<group>"; };
+		753BFC1E1CEE48D500E92B1F /* CateringOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CateringOrder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +53,8 @@
 		75282EC11CEB5A4C002AEA87 = {
 			isa = PBXGroup;
 			children = (
+				753BFC1D1CEE48D500E92B1F /* CateringOrder.h */,
+				753BFC1E1CEE48D500E92B1F /* CateringOrder.m */,
 				75282ED41CEB5AD3002AEA87 /* TableCheck.h */,
 				7535F7BE1CEBBE9E0092E68B /* MenuItem.h */,
 				7535F7BF1CEBBE9E0092E68B /* MenuItem.m */,
@@ -76,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				75282ECD1CEB5A4D002AEA87 /* main.m */,
-				753BFC1A1CEE45B700E92B1F /* CateringObject.h */,
-				753BFC1B1CEE45B700E92B1F /* CateringObject.m */,
 			);
 			path = renansDiner;
 			sourceTree = "<group>";
@@ -139,9 +139,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7535F7C01CEBBE9E0092E68B /* MenuItem.m in Sources */,
-				753BFC1C1CEE45B700E92B1F /* CateringObject.m in Sources */,
 				75282ECE1CEB5A4D002AEA87 /* main.m in Sources */,
 				75282ED61CEB5AD3002AEA87 /* TableCheck.m in Sources */,
+				753BFC1F1CEE48D500E92B1F /* CateringOrder.m in Sources */,
 				751CDDAB1CED002E00624C80 /* GroupTableCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
