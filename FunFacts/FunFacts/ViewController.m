@@ -25,7 +25,7 @@
 }
 
 - (IBAction)showFanFact {
-    NSLog(@"You pressed me!");
+    self.funFactLabel.text = @"Another interesting fact";
 }
 
 
