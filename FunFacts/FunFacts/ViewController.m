@@ -25,6 +25,7 @@
 }
 
 - (IBAction)showFanFact {
+    NSLog(@"You pressed me!");
 }
 
 
