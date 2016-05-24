@@ -2,8 +2,8 @@
 //  ViewController.m
 //  FunFacts
 //
-//  Created by Pasan Premaratne on 12/31/14.
-//  Copyright (c) 2014 Treehouse. All rights reserved.
+//  Created by Renan Avrahami on 5/23/16.
+//  Copyright (c) 2016 Renan Avrahami. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -23,5 +23,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)showFanFact {
+}
+
+
 
 @end
