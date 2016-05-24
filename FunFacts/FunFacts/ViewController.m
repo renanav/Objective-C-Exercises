@@ -24,8 +24,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+//button from view
 - (IBAction)showFanFact {
-    self.funFactLabel.text = @"Another interesting fact";
+    //an array of facts
+    NSArray *facts = [[NSArray alloc] initWithObjects:@"Ants strech when they wake up.",@"Octriches can run faster then horses.", nil];
+    
+    self.funFactLabel.text = [facts objectAtIndex:1];
 }
 
 

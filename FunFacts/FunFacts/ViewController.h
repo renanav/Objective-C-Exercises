@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController
 
-
+//label From the view
 @property (weak, nonatomic) IBOutlet UILabel *funFactLabel;
 
 
