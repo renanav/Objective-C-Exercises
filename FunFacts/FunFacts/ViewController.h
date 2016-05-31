@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+//Declare a class that will connect between the classes
+@class FactBook;
+
 @interface ViewController : UIViewController
 
 //label From the view
 @property (weak, nonatomic) IBOutlet UILabel *funFactLabel;
-
+@property (strong, nonatomic) FactBook *factBook;
 
 @end
 

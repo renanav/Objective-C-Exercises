@@ -2,8 +2,8 @@
 //  main.m
 //  FunFacts
 //
-//  Created by Pasan Premaratne on 12/31/14.
-//  Copyright (c) 2014 Treehouse. All rights reserved.
+//  Created by Renan Avrahami on 5/24/16.
+//  Copyright © 2016 Renan Avrahami. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

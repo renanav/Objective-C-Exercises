@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		752B28F61CF4E8BC00EF897A /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B28F51CF4E8BC00EF897A /* FactBook.m */; };
 		97A1B7111A546DE500C208EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A1B7101A546DE500C208EB /* main.m */; };
 		97A1B7141A546DE500C208EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A1B7131A546DE500C208EB /* AppDelegate.m */; };
 		97A1B7171A546DE500C208EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A1B7161A546DE500C208EB /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		752B28F41CF4E8BC00EF897A /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		752B28F51CF4E8BC00EF897A /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
 		97A1B70B1A546DE500C208EB /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A1B70F1A546DE500C208EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97A1B7101A546DE500C208EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				97A1B7181A546DE500C208EB /* Main.storyboard */,
 				97A1B71B1A546DE500C208EB /* Images.xcassets */,
 				97A1B71D1A546DE500C208EB /* LaunchScreen.xib */,
+				752B28F41CF4E8BC00EF897A /* FactBook.h */,
+				752B28F51CF4E8BC00EF897A /* FactBook.m */,
 				97A1B70E1A546DE500C208EB /* Supporting Files */,
 			);
 			path = FunFacts;
@@ -221,6 +226,7 @@
 			files = (
 				97A1B7171A546DE500C208EB /* ViewController.m in Sources */,
 				97A1B7141A546DE500C208EB /* AppDelegate.m in Sources */,
+				752B28F61CF4E8BC00EF897A /* FactBook.m in Sources */,
 				97A1B7111A546DE500C208EB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				97A1B7301A546DE600C208EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97A1B7311A546DE600C208EB /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				97A1B7331A546DE600C208EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
