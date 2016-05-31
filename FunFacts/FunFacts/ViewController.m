@@ -30,7 +30,7 @@
 //button from view
 - (IBAction)showFanFact {
 
-    [self.factBook.facts objectAtIndex:1];
+    self.funFactLabel.text = [self.factBook.facts objectAtIndex:1];
 }
 
 
