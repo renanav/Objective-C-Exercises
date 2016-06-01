@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-//Declare a class that will connect between the classes
+//Declare a class, that will connect between the classes
 @class FactBook;
 @class ColorWheel;
 
@@ -21,6 +21,7 @@
 //declaring them so I can use them anywhere in the class
 @property (strong, nonatomic) FactBook *factBook;
 @property (strong, nonatomic) ColorWheel *colorWheel;
+@property (weak, nonatomic) IBOutlet UIButton *funFactButton;
 
 @end
 

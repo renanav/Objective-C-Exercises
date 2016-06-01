@@ -23,7 +23,12 @@
     self.colorWheel = [[ColorWheel alloc]init];
     
     //will make the app open with a diffenrent background color every time it's opened
-    self.view.backgroundColor = [self.colorWheel randomColor];
+    //to unify the cutton's text color and the background color
+    UIColor *randomColor = [self.colorWheel randomColor];
+    
+    //Will make the background color change every time the button is pressed
+    self.view.backgroundColor = randomColor;
+    self.funFactButton.tintColor = randomColor;
     
     self.funFactLabel.text = [self.factBook randomFact];
 }
@@ -35,8 +40,12 @@
 
 //button from view
 - (IBAction)showFanFact {
+    //to unify the cutton's text color and the background color
+    UIColor *randomColor = [self.colorWheel randomColor];
+    
     //Will make the background color change every time the button is pressed
-    self.view.backgroundColor = [self.colorWheel randomColor];
+    self.view.backgroundColor = randomColor;
+    self.funFactButton.tintColor = randomColor;
     
     self.funFactLabel.text = [self.factBook randomFact];
 }
