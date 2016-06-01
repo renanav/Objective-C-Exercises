@@ -18,12 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="An intersting fact goes here" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VqI-VK-6SS">
-                                <rect key="frame" x="48" y="200" width="225" height="26"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdw-Wm-cc2">
                                 <rect key="frame" x="48" y="448" width="225" height="61"/>
                                 <color key="backgroundColor" red="0.24402176531409836" green="1" blue="0.95287785903563127" alpha="1" colorSpace="calibratedRGB"/>
@@ -36,14 +30,32 @@
                                     <action selector="showFanFact" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Am9-My-Ve7"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An intersting fact goes here" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VqI-VK-6SS">
+                                <rect key="frame" x="48" y="273" width="225" height="23"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Did you know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="znj-Bj-Z6E">
+                                <rect key="frame" x="52" y="60" width="116" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="HlA-Vn-BOx"/>
+                                    <constraint firstAttribute="width" constant="116" id="oqa-GZ-2OP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.4923260195035461" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.79805403679454434" green="0.98115863000196757" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="1" green="0.11643222657330465" blue="0.1091321874778336" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Bdw-Wm-cc2" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="48" id="0qU-Fp-A43"/>
                             <constraint firstItem="VqI-VK-6SS" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="28H-py-lEC"/>
+                            <constraint firstItem="znj-Bj-Z6E" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="40" id="498-Wd-Qk1"/>
                             <constraint firstItem="VqI-VK-6SS" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="32" id="IKH-qf-nSV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="VqI-VK-6SS" secondAttribute="trailing" constant="31" id="M6a-oA-dZB"/>
+                            <constraint firstItem="znj-Bj-Z6E" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="32" id="QZj-Ll-Eo1"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Bdw-Wm-cc2" secondAttribute="bottom" constant="59" id="e2y-5O-42N"/>
                             <constraint firstAttribute="trailing" secondItem="Bdw-Wm-cc2" secondAttribute="trailing" constant="47" id="ntY-KD-wJ7"/>
                         </constraints>
