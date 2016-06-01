@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		752B28F61CF4E8BC00EF897A /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B28F51CF4E8BC00EF897A /* FactBook.m */; };
 		752F10F91CFF608300B2F24B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752F10F71CFF608300B2F24B /* Main.storyboard */; };
+		752F10FC1CFF78C300B2F24B /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 752F10FB1CFF78C300B2F24B /* ColorWheel.m */; };
 		97A1B7111A546DE500C208EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A1B7101A546DE500C208EB /* main.m */; };
 		97A1B7141A546DE500C208EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A1B7131A546DE500C208EB /* AppDelegate.m */; };
 		97A1B7171A546DE500C208EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A1B7161A546DE500C208EB /* ViewController.m */; };
@@ -31,6 +32,8 @@
 		752B28F41CF4E8BC00EF897A /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
 		752B28F51CF4E8BC00EF897A /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
 		752F10F81CFF608300B2F24B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		752F10FA1CFF78C300B2F24B /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		752F10FB1CFF78C300B2F24B /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 		97A1B70B1A546DE500C208EB /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A1B70F1A546DE500C208EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97A1B7101A546DE500C208EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 				752F10F71CFF608300B2F24B /* Main.storyboard */,
 				752B28F41CF4E8BC00EF897A /* FactBook.h */,
 				752B28F51CF4E8BC00EF897A /* FactBook.m */,
+				752F10FA1CFF78C300B2F24B /* ColorWheel.h */,
+				752F10FB1CFF78C300B2F24B /* ColorWheel.m */,
 				97A1B70E1A546DE500C208EB /* Supporting Files */,
 			);
 			path = FunFacts;
@@ -228,6 +233,7 @@
 				97A1B7141A546DE500C208EB /* AppDelegate.m in Sources */,
 				752B28F61CF4E8BC00EF897A /* FactBook.m in Sources */,
 				97A1B7111A546DE500C208EB /* main.m in Sources */,
+				752F10FC1CFF78C300B2F24B /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
