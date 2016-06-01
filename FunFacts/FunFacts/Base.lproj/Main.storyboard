@@ -24,14 +24,20 @@
                                     <action selector="showFanFact" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Am9-My-Ve7"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="An intersting fact goes here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VqI-VK-6SS">
-                                <rect key="frame" x="20" y="138" width="320" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="An intersting fact goes here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VqI-VK-6SS">
+                                <rect key="frame" x="48" y="200" width="225" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="sdh-1f-lfo"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VqI-VK-6SS" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Ntl-na-VDq"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="funFactLabel" destination="VqI-VK-6SS" id="wbn-9M-2sz"/>

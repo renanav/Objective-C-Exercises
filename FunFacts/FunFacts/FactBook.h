@@ -13,4 +13,6 @@
 //creating an array to hold the facts
 @property (strong, nonatomic) NSArray *facts;
 
+- (NSString *)randomFact;
+
 @end
