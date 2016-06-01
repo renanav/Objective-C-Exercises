@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "FactBook.h"
+#import "ColorWheel.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,10 @@
     [super viewDidLoad];
 
     self.factBook = [[FactBook alloc] init];
+    self.colorWheel = [[ColorWheel alloc]init];
+    
+    //will make the app open with a diffenrent background color every time it's opened
+    self.view.backgroundColor = [self.colorWheel randomColor];
     
     self.funFactLabel.text = [self.factBook randomFact];
 }
@@ -30,7 +35,9 @@
 
 //button from view
 - (IBAction)showFanFact {
-
+    //Will make the background color change every time the button is pressed
+    self.view.backgroundColor = [self.colorWheel randomColor];
+    
     self.funFactLabel.text = [self.factBook randomFact];
 }
 
