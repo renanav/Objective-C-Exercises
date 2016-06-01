@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,26 +18,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdw-Wm-cc2">
-                                <rect key="frame" x="102" y="269" width="180" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="An intersting fact goes here" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VqI-VK-6SS">
+                                <rect key="frame" x="48" y="200" width="225" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdw-Wm-cc2">
+                                <rect key="frame" x="48" y="448" width="225" height="61"/>
+                                <color key="backgroundColor" red="0.24402176531409836" green="1" blue="0.95287785903563127" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="tCs-ZE-PO1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                                 <state key="normal" title="Show Another Fun Fact"/>
                                 <connections>
                                     <action selector="showFanFact" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Am9-My-Ve7"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="An intersting fact goes here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VqI-VK-6SS">
-                                <rect key="frame" x="48" y="200" width="225" height="26"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="225" id="sdh-1f-lfo"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.79805403679454434" green="0.98115863000196757" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="0.11643222657330465" blue="0.1091321874778336" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="VqI-VK-6SS" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Ntl-na-VDq"/>
+                            <constraint firstItem="Bdw-Wm-cc2" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="48" id="0qU-Fp-A43"/>
+                            <constraint firstItem="VqI-VK-6SS" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="28H-py-lEC"/>
+                            <constraint firstItem="VqI-VK-6SS" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="32" id="IKH-qf-nSV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VqI-VK-6SS" secondAttribute="trailing" constant="31" id="M6a-oA-dZB"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Bdw-Wm-cc2" secondAttribute="bottom" constant="59" id="e2y-5O-42N"/>
+                            <constraint firstAttribute="trailing" secondItem="Bdw-Wm-cc2" secondAttribute="trailing" constant="47" id="ntY-KD-wJ7"/>
                         </constraints>
                     </view>
                     <connections>
