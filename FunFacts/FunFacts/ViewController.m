@@ -3,7 +3,7 @@
 //  FunFacts
 //
 //  Created by Renan Avrahami on 5/23/16.
-//  Copyright (c) 2016 Renan Avrahami. All rights reserved.
+//  Copyright (c) 2016 Renan Avrahami. Enjoy!
 //
 
 #import "ViewController.h"
